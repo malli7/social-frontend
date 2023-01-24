@@ -1,0 +1,14 @@
+.explore {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subExplore {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(215, 215, 215);
+}

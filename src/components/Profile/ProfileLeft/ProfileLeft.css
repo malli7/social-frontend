@@ -1,0 +1,76 @@
+.profileLeftBar {
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+.profileContainer-profile {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  text-align: center;
+  overflow: scroll;
+  max-height: 60vh;
+}
+
+.inputFieldsClass {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.profileEditBtn {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.profileContainerProfilePic {
+  width: 98%;
+  height: 25vh;
+  object-fit: fill;
+  margin: 2px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+.userProfileStats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  height: 20px;
+}
+
+.friend {
+  display: flex;
+  justify-content: space-around;
+}
+
+.friendRequestPic {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.request {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .profileLeftBar {
+    width: 100%;
+  }
+}

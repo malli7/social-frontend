@@ -1,0 +1,21 @@
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subHome {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(215, 215, 215);
+}
+
+@media only screen and (max-width: 600px) {
+  .subHome {
+    margin-left: 1px;
+  margin-right: 1px;
+  }
+}

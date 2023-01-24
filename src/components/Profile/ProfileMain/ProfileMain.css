@@ -1,0 +1,29 @@
+.mainProfileBar {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  .mainProfileBar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+  .mainProfileBar {
+    width: 85%;
+    margin-left: 5vw;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 700px) {
+  .mainProfileBar {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 900px) {
+  .mainProfileBar {
+    width: 55%;
+  }
+}

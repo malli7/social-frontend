@@ -1,0 +1,57 @@
+.mainContainerForLogin {
+  background-color: rgb(215, 215, 215);
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  height: 97vh;
+}
+
+.subMainCOntainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.signUpContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.inputFieldClass,
+.signUpBtn {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.signUpBtn,
+.changeBtn {
+  cursor: pointer;
+}
+
+.changeBtn {
+  background-color: rgb(215, 215, 215);
+  border: 0;
+  margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainerForLogin {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .inputFieldClass,
+  .signUpBtn {
+    width: 80vw;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+  }
+}

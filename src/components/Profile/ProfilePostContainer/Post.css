@@ -1,0 +1,109 @@
+.postContainer {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.contentBar {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postSubHeader {
+  display: flex;
+  align-items: center;
+}
+
+.postSubActions {
+  display: flex;
+  align-items: center;
+}
+
+.postedPic {
+  width: 100%;
+  object-fit: fill;
+  height: 40vh;
+}
+
+.profilePicForPost {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+.profilePicForComment {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.name {
+  margin: 10px;
+}
+
+.inputFieldForComment {
+  border: 0;
+  width: 70%;
+  height: 30px;
+  margin: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.commentBtn {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.postEditPic {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.postEditBtn {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.postEditContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentBar {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}

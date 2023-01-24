@@ -1,0 +1,33 @@
+.profileHome {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profileSubHome {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(215, 215, 215);
+  }
+  
+  .profileComponentContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(215, 215, 215);
+    width: 80%;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .profileComponentContainer {
+      width: 99%;
+      flex-direction: column;
+      display: inline;
+      margin: 3px;
+    }
+  }
+  

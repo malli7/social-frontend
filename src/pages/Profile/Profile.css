@@ -1,0 +1,41 @@
+.home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.subHome {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(215, 215, 215);
+}
+
+.componentContainer,
+.componentContainer2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(215, 215, 215);
+  width: 80%;
+}
+
+.componentContainer2 {
+  display: none;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .componentContainer {
+    width: 99%;
+    flex-direction: column;
+    display: none;
+  }
+  .componentContainer2 {
+    display: inline;
+  }
+}

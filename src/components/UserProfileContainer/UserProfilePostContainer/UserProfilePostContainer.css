@@ -1,0 +1,87 @@
+.contentBar-userProfile {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.postContainer-userProfile {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.postHeader-userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postActions-userProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postSubHeader-userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.postSubActions-userProfile {
+  display: flex;
+  align-items: center;
+}
+
+.postedPic-userProfile {
+  width: 100%;
+  object-fit: fill;
+  height: 40vh;
+}
+
+.profilePicForPost-userProfile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+.profilePicForComment-userProfile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.name-userProfile {
+  margin: 10px;
+}
+
+.inputFieldForComment-userProfile {
+  border: 0;
+  width: 70%;
+  height: 30px;
+  margin: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.commentBtn-userProfile {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentBar-userProfile {
+    margin: 0px;
+  }
+}

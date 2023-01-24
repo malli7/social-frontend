@@ -1,0 +1,70 @@
+.uploadContainer-contentPost {
+  border-radius: 10px;
+  max-height: 40vh;
+  margin-top: 20px;
+  background-color: #fff;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.contentBar-contentPost {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.inputContainer-contentPost {
+  display: flex;
+  align-items: center;
+}
+
+.iconsContainer-contentPost {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilePic-contentPost {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.inputfield-contentPost {
+  border: 0;
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.icon-contentPost {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.postBtn-contentPost {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contentBar-contentPost {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .uploadContainer-contentPost {
+    margin-top: 3px;
+  }
+}
+

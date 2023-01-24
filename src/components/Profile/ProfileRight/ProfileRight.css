@@ -1,0 +1,104 @@
+.profileRightBar {
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+.profileRightContainer {
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  text-align: center;
+  overflow: scroll;
+  max-height: 50vh;
+}
+
+.friendRequestsContainer {
+  border-radius: 10px;
+  max-height: 50vh;
+  margin-top: 20px;
+  background-color: #fff;
+  text-align: center;
+  overflow: scroll;
+}
+
+.suggestionTitle,
+.request {
+  display: flex;
+  justify-content: space-around;
+}
+
+.requestContainer,
+.requestActionContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.requestActionContainer {
+  justify-content: space-between;
+}
+
+.friendRequestPic {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.requestActionBtn {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.suggestionFollowSug {
+  background-color: #aaa;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.suggestionFollowTabSug {
+  width: 20%;
+  text-align: left;
+  color: blue;
+  cursor: pointer;
+}
+
+.profilePicSug {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.friendProfilePic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.friendRemoveTab {
+  width: 20%;
+  text-align: left;
+  color: blue;
+  cursor: pointer;
+}
+
+.profileEditBtn {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .profileRightBar {
+    width: 95vw;
+  }
+}
