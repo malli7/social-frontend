@@ -67,3 +67,23 @@ export const deletePost = (id) => async (dispatch) => {
 
     }
 }
+
+
+export const getChat = (userid1, userid2) => async (dispatch) => {
+    try {
+        const { data } = await api.getChat(userid1, userid2);
+        dispatch({ type: "MYCHAT", payload: data });
+    } catch (error) {
+        console.log(error);
+
+    }
+}
+
+export const sendMessage = (formData) => async (dispatch) => {
+    try {
+        await api.sendMessage(formData);
+    } catch (error) {
+        console.log(error);
+
+    }
+}

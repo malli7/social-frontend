@@ -1,0 +1,8 @@
+.chat {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(215, 215, 215);
+  margin-top: 10px;
+}

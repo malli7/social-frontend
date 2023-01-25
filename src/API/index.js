@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://socialbackend-fqjq.onrender.com' });
+const API = axios.create({ baseURL: 'https://social-backend-qox9.onrender.com' });
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem('profile')) {
@@ -46,3 +46,6 @@ export const commentPost = (id, formData) => API.patch(`/posts/updatepost/${id}/
 
 export const deletePost = (id) => API.delete(`/posts/deletepost/${id}`);
 
+export const getChat = (userid1, userid2) => API.post(`/posts/chat/${userid1}/${userid2}`);
+
+export const sendMessage = (formData) => API.post('/posts/msg', formData);

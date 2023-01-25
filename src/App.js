@@ -5,6 +5,7 @@ import Profile from "./pages/Profile/Profile";
 import Login from "./pages/Login/Login";
 import Explore from "./pages/Explore/Explore";
 import UserProfile from "./pages/UserProfile/UserProfile";
+import Chat from "./pages/Chat/Chat";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/explore" element={<Explore />} />
           <Route path="/profile/:id" element={<UserProfile />} />
           <Route path="/profilebyusername/:username" element={<UserProfile />} />
+          <Route path="/chat" element={<Chat />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './NavBar.css';
-import { MdOutlineSearch, MdLogout, MdExplore } from "react-icons/md";
+import { MdOutlineSearch, MdLogout, MdExplore, MdChatBubbleOutline } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
@@ -16,6 +16,10 @@ const NavBar = () => {
 
   const handleExplore = () => {
     navigate('/explore')
+  }
+
+  const handleChat = () => {
+    navigate('/chat')
   }
 
   const handleSearch = () => {
@@ -44,6 +48,8 @@ const NavBar = () => {
       </div>
 
       <div className="profileContainer">
+        <MdChatBubbleOutline style={{ marginLeft: "20px", cursor: "pointer" }} size={20} onClick={handleChat} />
+
         <MdExplore style={{ marginLeft: "20px", cursor: "pointer" }} size={20} onClick={handleExplore} />
 
         <Link to="/profile" style={{ textDecoration: "none", color: "black" }}>
