@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { FaRegHeart, FaHeart, FaRegComment } from 'react-icons/fa';
-import { IoPaperPlaneOutline } from 'react-icons/io5';
 import { MdOutlinePersonAddAlt } from 'react-icons/md';
 import { useDispatch } from "react-redux";
 import { follow } from "../../../Actions/Auth";
@@ -83,10 +82,6 @@ const ExplorePost = ({ post }) => {
 
                     <div className="explorePostSubActions" onClick={handleShowComments}>
                         <FaRegComment size={20} style={{ margin: "5px" }} /> {comments.length} {comments.length === 1 ? 'Comment' : 'Comments'}
-                    </div>
-
-                    <div className="explorePostSubActions">
-                        <IoPaperPlaneOutline size={20} style={{ margin: "5px", marginRight: "20px" }} />
                     </div>
 
                 </div>

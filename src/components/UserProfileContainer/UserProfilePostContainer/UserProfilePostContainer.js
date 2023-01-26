@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./UserProfilePostContainer.css";
 import { FaRegHeart, FaHeart, FaRegComment } from 'react-icons/fa';
-import { IoPaperPlaneOutline } from 'react-icons/io5';
 import { useDispatch } from "react-redux";
 import { commentPost, likePost } from "../../../Actions/Posts";
 
@@ -76,10 +75,6 @@ const UserProfilePostContainer = ({ post }) => {
 
                     <div className="postSubActions-userProfile" onClick={handleShowComments}>
                         <FaRegComment size={20} style={{ margin: "5px" }} /> {comments.length} {comments.length === 1 ? 'Comment' : 'Comments'}
-                    </div>
-
-                    <div className="postSubActions-userProfile">
-                        <IoPaperPlaneOutline size={20} style={{ margin: "5px", marginRight: "20px" }} />
                     </div>
 
                 </div>

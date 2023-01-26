@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import './Post.css'
 import { FaRegHeart, FaHeart, FaRegComment } from 'react-icons/fa';
 import { MdPersonAddDisabled } from 'react-icons/md';
-import { IoPaperPlaneOutline } from 'react-icons/io5';
 import { useDispatch } from "react-redux";
 import { commentPost, likePost } from "../../../Actions/Posts";
 import { unfollow } from "../../../Actions/Auth";
@@ -91,10 +90,6 @@ const Post = ({ post }) => {
 
                     <div className="postSubActions" onClick={handleShowComments}>
                         <FaRegComment size={20} style={{ margin: "5px" }} /> {comments.length} {comments.length === 1 ? 'Comment' : 'Comments'}
-                    </div>
-
-                    <div className="postSubActions">
-                        <IoPaperPlaneOutline size={20} style={{ margin: "5px", marginRight: "20px" }} />
                     </div>
 
                 </div>

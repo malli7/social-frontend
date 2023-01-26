@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import './Post.css'
 import { MdDelete, MdMode } from 'react-icons/md';
 import { FaRegHeart, FaHeart, FaRegComment } from 'react-icons/fa';
-import { IoPaperPlaneOutline } from 'react-icons/io5';
 import { commentPost, deletePost, likePost, updatePostFromProfile } from "../../../Actions/Posts";
 import { useDispatch } from "react-redux";
 
@@ -122,10 +121,6 @@ const Post = ({ post }) => {
 
                         <div className="postSubActions" onClick={toggleComments} >
                             <FaRegComment size={20} style={{ margin: "5px" }} /> {comments.length} Comments
-                        </div>
-
-                        <div className="postSubActions">
-                            <IoPaperPlaneOutline size={20} style={{ margin: "5px", marginRight: "20px" }} />
                         </div>
 
                     </div>
